@@ -6,3 +6,9 @@ export const Header = (props)=>(
         <Text style={{fontSize:25,color:"black"}}>{props.headerText}</Text>
     </View>
 )
+
+export const CardSection = (props)=>(
+    <View>
+        <Text style={{fontSize:25,color:"black"}}>{props.children}</Text>
+    </View>
+)
